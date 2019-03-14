@@ -8,7 +8,7 @@
     Copyright (c) 2019, Joyent, Inc.
 -->
 
-# rust-muppt
+# rust-muppet
 
 This is an experimental repository for porting [muppet](https://github.com/joyent/muppet) to rust.
 
