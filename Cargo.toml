@@ -1,0 +1,15 @@
+[package]
+name = "rust-muppet"
+version = "0.1.0"
+authors = ["Kelly McLaughlin <kelly.mclaughlin@joyent.com>"]
+edition = "2018"
+
+[dependencies]
+
+clap = "2.32.0"
+serde = "1.0.85"
+serde_derive = "1.0.85"
+serde_json = "1.0.37"
+slog = "2.4.1"
+slog-bunyan = { git = "https://github.com/kellymclaughlin/bunyan", branch = "build-on-smartos" }
+zookeeper = "0.5.5"
